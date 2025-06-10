@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Zarwa Test™ 🧠💅</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- INTRO SCREEN -->
+    <div id="start-screen">
+      <h1 class="title">✨ The Zarwa Test™ ✨</h1>
+      <p>Find out what type of Zarwa you are 👑</p>
+      <button id="startBtn">Start the Test</button>
+    </div>
+
+    <!-- QUIZ -->
+    <div id="quiz" class="hidden">
+      <div id="question" class="question"></div>
+      <div id="options" class="options"></div>
+    </div>
+
+    <!-- RESULT -->
+    <div id="result" class="hidden">
+      <h2 id="resultTitle"></h2>
+      <p id="resultDesc"></p>
+      <button id="restartBtn" class="restart-btn">Try Again</button>
+    </div>
+
+    <!-- UNICORN MODE -->
+    <div id="unicornMode" class="hidden">
+      🦄 You unlocked UNICORN ZARWA MODE. Go scream at pigeons!
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
